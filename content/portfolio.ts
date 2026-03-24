@@ -596,7 +596,7 @@ export const portfolioContent = {
     imprint: "PASQUERAUD",
     signature: "Maël",
     caption:
-      "Développeur web full stack & designer web pour indépendants et petites activités.",
+      "Développeur & designer web pour indépendants et petites activités.",
     backToTopLabel: "Retour en haut",
     blogLink: {
       label: "Voir les projets",
