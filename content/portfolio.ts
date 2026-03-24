@@ -3,7 +3,7 @@ import type { PortfolioContent } from "@/lib/types";
 export const portfolioContent = {
   identity: {
     name: "Maël Pasqueraud",
-    role: "Développeur web & designer web",
+    role: "Développeur & designer web",
     location: "Charente, France",
     availability:
       "Freelance disponible partout en France, avec un ancrage local en Charente",
