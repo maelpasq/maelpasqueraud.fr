@@ -3,64 +3,65 @@ import type { PortfolioContent } from "@/lib/types";
 export const portfolioContent = {
   identity: {
     name: "Maël Pasqueraud",
-    role: "Développeur web",
-    location: "France",
-    availability: "Ouvert aux missions choisies",
+    role: "Développeur web & designer web",
+    location: "Charente, France",
+    availability:
+      "Freelance disponible partout en France, avec un ancrage local en Charente",
     email: "hello@maelpasqueraud.fr",
     siteUrl: "https://maelpasqueraud.fr",
   },
   seo: {
-    category: "technology",
+    category: "business",
     keywords: [
-      "développeur web",
-      "portfolio",
-      "Next.js",
-      "React",
-      "TypeScript",
-      "front-end",
-      "design system",
-      "UX UI",
+      "developpeur web charente",
+      "creation site vitrine",
+      "freelance web charente",
+      "site internet auto entrepreneur",
+      "designer web freelance",
+      "site vitrine artisan",
+      "site vitrine coach sportif",
+      "site internet boulangerie",
     ],
-    applicationName: "Maël Pasqueraud Portfolio",
-    ogLabel: "Portfolio",
-    openGraphAlt: "Maël Pasqueraud portfolio",
+    applicationName: "Maël Pasqueraud",
+    ogLabel: "Site vitrine",
+    openGraphAlt: "Site de Maël Pasqueraud",
     projectTitleSuffix: "Projet",
     projectFallbackTitle: "Projet introuvable",
   },
   ui: {
     header: {
-      navigationAriaLabel: "Navigation principale du portfolio",
+      navigationAriaLabel: "Navigation principale",
     },
     home: {
-      manifestoSectionTitle: "Manifeste",
-      contactHeading: "Construisons une présence web plus forte.",
+      manifestoSectionTitle: "Approche",
+      contactHeading: "Parlons d'un site qui inspire confiance.",
     },
     projectPage: {
       backToProjects: "Retour aux projets",
-      challengeLabel: "Problème",
-      solutionLabel: "Solution",
-      outcomeLabel: "Résultat",
-      stackLabel: "Stack",
-      deliverablesLabel: "Livrables",
+      challengeLabel: "Contexte",
+      solutionLabel: "Approche",
+      outcomeLabel: "Résultat visé",
+      stackLabel: "Outils",
+      deliverablesLabel: "Contenu de la maquette",
       nextProjectLabel: "Projet suivant",
       viewProjectLabel: "Voir le projet",
-      contactCtaLabel: "Prendre contact",
+      contactCtaLabel: "Parler de mon site",
     },
     notFound: {
       eyebrow: "404 / page introuvable",
       title: "Cette page n'existe pas.",
       description:
-        "Le lien a peut-être bougé, ou la page n'a pas encore été branchée. Le portfolio reste accessible depuis l'accueil.",
+        "Le lien a peut-être changé ou la page n'est pas encore prête. Le site reste accessible depuis l'accueil.",
       homeCtaLabel: "Retour à l'accueil",
       contactCtaLabel: "Contacter",
     },
   },
   navigation: [
     { label: "Intro", href: "#hero" },
-    { label: "Profil", href: "#a-propos" },
+    { label: "À propos", href: "#a-propos" },
+    { label: "Offres", href: "#expertise" },
     { label: "Projets", href: "#projets" },
     { label: "Contact", href: "#contact" },
-    { label: "Blog", href: "/blog" },
   ],
   admin: {
     metaTitle: "Admin",
@@ -100,254 +101,248 @@ export const portfolioContent = {
     index: "02",
     title: "À propos",
     description:
-      "Technique, direction visuelle et souci du détail.",
-    headline: "Un profil technique avec un vrai regard sur l'interface.",
-    quote:
-      "Moins d'effets. Plus de tenue.",
+      "Un profil technique, un regard design et une approche simple.",
+    headline:
+      "Je conçois des sites clairs, soignés et pensés pour donner confiance dès les premières secondes.",
+    quote: "J'aime voir une idée prendre vie sur un écran.",
     paragraphs: [
-      "Je développe des interfaces où la hiérarchie, le contraste et le rythme servent une lecture immédiate.",
-      "Mon terrain se situe entre design system, craftsmanship front-end et logique produit.",
+      "Je suis passionné d'informatique depuis l'âge de 11 ans. Très tôt, j'ai voulu comprendre comment étaient construits les sites que je consultais tous les jours.",
+      "En créant mes premières pages, j'ai eu un vrai déclic : une idée pouvait devenir quelque chose de concret, utile et visible par tout le monde. C'est ce qui m'a naturellement amené vers le développement web et le design.",
+      "Aujourd'hui, j'accompagne surtout les auto-entrepreneurs et petites activités qui veulent une image plus professionnelle sur internet, avec un site clair, propre et facile à prendre en main.",
     ],
     card: {
       label: "En bref",
       items: [
-        { key: "Base", value: "France / remote-friendly" },
+        { key: "Base", value: "Charente, France" },
         {
           key: "Format",
-          value: "Freelance / renfort front-end",
+          value: "Freelance disponible partout en France",
         },
         {
-          key: "Recherche",
-          value: "Produits exigeants et expériences sur mesure",
+          key: "Clients",
+          value: "Auto-entrepreneurs, indépendants et petites structures",
+        },
+        {
+          key: "Plus",
+          value: "Sites vitrines en priorité, e-commerce sur demande",
         },
       ],
     },
   },
   expertise: {
     index: "03",
-    title: "Expertise",
+    title: "Offres",
     description:
-      "Ce que je tiens vraiment, ce que j'utilise souvent, ce que je pousse plus loin.",
+      "Trois formats simples pour lancer une présence web claire et crédible.",
     groups: [
       {
-        name: "Maîtrise",
-        intro: "Impact immédiat.",
+        name: "Essentiel",
+        intro: "À partir de 890 €",
         items: [
-          "Architecture front-end claire pour produits et vitrines.",
-          "UI engineering fidèle à une DA exigeante.",
-          "Responsive, performance et états d'interface propres.",
+          "Une page claire pour présenter l'activité et inspirer confiance.",
+          "Design responsive, moderne et facile à lire sur mobile comme sur ordinateur.",
+          "Formulaire de contact et structure simple pour être présent rapidement en ligne.",
         ],
       },
       {
-        name: "Usage régulier",
-        intro: "Production quotidienne.",
+        name: "Visibilité",
+        intro: "À partir de 1 490 €",
         items: [
-          "Next.js full-stack et contenus dynamiques.",
-          "Design systems pragmatiques et variantes maintenables.",
-          "API, auth et flows back-end modernes.",
+          "Site vitrine multi-pages pour mieux présenter les services et l'entreprise.",
+          "Travail sur la hiérarchie des contenus, les appels à l'action et la crédibilité globale.",
+          "Base SEO locale, contact optimisé et accompagnement pour organiser les contenus.",
         ],
       },
       {
-        name: "Exploration",
-        intro: "Recherche active.",
+        name: "Signature",
+        intro: "Sur mesure",
         items: [
-          "Narration interactive plus immersive.",
-          "Transitions de page sophistiquées mais lisibles.",
-          "Systèmes visuels plus radicaux, tenus par une grille nette.",
+          "Projet plus complet avec direction visuelle plus poussée et structure personnalisée.",
+          "Fonctionnalités ou sections spécifiques selon l'activité et les objectifs.",
+          "Idéal pour une présence web plus ambitieuse ou une boutique e-commerce sur demande.",
         ],
       },
     ],
   },
   stack: {
     index: "04",
-    title: "Stack",
+    title: "Outils & stack",
     description:
-      "Un stack moderne, choisi pour livrer proprement.",
+      "Des bases modernes pour créer des sites rapides, propres et faciles à faire évoluer.",
     groups: [
       {
-        title: "Front-end core",
-        note: "Base de production.",
+        title: "Front-end",
+        note: "Une base solide pour l'interface.",
         items: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
       },
       {
-        title: "Interface & motion",
-        note: "Rythme et perception.",
-        items: ["Framer Motion", "GSAP (si pertinent)", "shadcn/ui", "Figma"],
+        title: "Design",
+        note: "Pour cadrer et soigner l'image.",
+        items: [
+          "Figma",
+          "Responsive design",
+          "Hiérarchie visuelle",
+          "Intégration soignée",
+        ],
       },
       {
-        title: "Data & back-end",
-        note: "Quand le produit s'épaissit.",
-        items: ["Node.js", "Supabase", "PostgreSQL", "Prisma"],
+        title: "Fonctionnel",
+        note: "L'essentiel pour un site utile.",
+        items: [
+          "Formulaire de contact",
+          "SEO de base",
+          "Déploiement Vercel",
+          "Performance web",
+        ],
       },
       {
-        title: "Delivery & qualité",
-        note: "Exécution et livraison.",
-        items: ["GitHub", "Docker", "Vercel", "Lighthouse"],
+        title: "Évolutions",
+        note: "Quand le projet va plus loin.",
+        items: ["Node.js", "Supabase", "PostgreSQL", "E-commerce sur demande"],
       },
     ],
     ticker: [
+      "Site vitrine",
+      "Responsive",
+      "Performance",
+      "SEO local",
       "Next.js",
       "React",
       "TypeScript",
       "Tailwind CSS",
-      "Framer Motion",
-      "Supabase",
-      "PostgreSQL",
-      "Prisma",
-      "Node.js",
-      "Vercel",
       "Figma",
-      "Design systems",
-      "Responsive",
-      "Performance",
+      "Formulaire",
+      "Déploiement",
+      "UI design",
+      "Charente",
+      "Freelance",
     ],
   },
   projects: {
     index: "05",
     title: "Projets",
     description:
-      "Trois pièces choisies. Peu, mais tenues.",
-    cardCtaLabel: "Voir l'étude de cas",
-    posterLabel: "Étude de cas",
+      "Trois maquettes conçues pour montrer le type de sites que je peux créer pour des activités réelles.",
+    cardCtaLabel: "Voir le projet",
+    posterLabel: "Maquette",
     items: [
       {
-        slug: "atelier-index",
-        title: "Atelier Index",
-        category: "Plateforme éditoriale",
-        year: "2025",
-        role: "Lead front-end / motion",
+        slug: "atelier-verdure",
+        title: "Atelier Verdure",
+        category: "Projet conceptuel / paysagiste",
+        year: "2026",
+        role: "Direction web / design / développement",
         summary:
-          "Un site de studio pensé comme un objet éditorial, net et tendu.",
+          "Une maquette de site vitrine pour un paysagiste en Charente, pensée pour rassurer rapidement et mettre en valeur le savoir-faire.",
         statement:
-          "Éditorial premium, sans surcharge.",
+          "Présenter les services, les réalisations et le contact avec une image nette et locale.",
         challenge:
-          "Le studio avait besoin d'un site capable de projeter un positionnement haut de gamme tout en laissant une vraie place au rythme éditorial. Le piège était double : tomber dans le template créatif attendu, ou surcharger l'interface avec trop d'effets.",
+          "Un paysagiste doit montrer son sérieux dès les premières secondes. Le site devait présenter l'activité, valoriser quelques réalisations et simplifier la prise de contact, sans tomber dans un design trop chargé ni trop impersonnel.",
         solution:
-          "J'ai conçu une structure à forte hiérarchie typographique, avec un système de modules réutilisables, des transitions sobres et un poster visuel propre à chaque page. Le front a été pensé pour garder la même tenue visuelle sur desktop et mobile, avec un accent mis sur le confort de lecture.",
+          "J'ai conçu une page d'accueil structurée autour des prestations, d'une galerie de réalisations, d'une zone d'intervention claire et d'un contact visible à chaque étape. L'ensemble reste naturel, lisible et pensé pour un public local.",
         outcome:
-          "Résultat : une expérience plus calme, plus statutaire et plus mémorable, capable de soutenir une publication fréquente sans dégrader la cohérence du site.",
-        stack: [
-          "Next.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Framer Motion",
-          "Sanity",
-          "Vercel",
-        ],
+          "La maquette donne une image plus professionnelle de l'activité et facilite la prise de contact pour un prospect qui cherche un artisan fiable en Charente.",
+        stack: ["Next.js", "TypeScript", "Tailwind CSS", "Responsive"],
         deliverables: [
-          "Direction UI",
-          "Système éditorial",
-          "Animations d'entrée",
-          "Optimisation responsive",
+          "Page d'accueil",
+          "Présentation des services",
+          "Bloc réalisations",
+          "Contact rapide",
         ],
         links: [
           {
-            label: "Étude de cas",
-            href: "/projets/atelier-index",
+            label: "Voir le projet",
+            href: "/projets/atelier-verdure",
           },
           {
-            label: "Code sur demande",
-            href: "mailto:hello@maelpasqueraud.fr?subject=Atelier%20Index",
+            label: "Demander un site similaire",
+            href: "/#contact",
           },
         ],
         metrics: [
-          { label: "Cap", value: "Éditorial premium" },
-          { label: "Focus", value: "Narration + structure" },
-          { label: "Livrable", value: "Vitrine modulaire" },
+          { label: "Type", value: "Site vitrine" },
+          { label: "Secteur", value: "Paysagiste" },
+          { label: "Zone", value: "Charente" },
         ],
         coverVariant: "lattice",
       },
       {
-        slug: "orbit-finance",
-        title: "Orbit Finance",
-        category: "Dashboard data",
-        year: "2024",
-        role: "Front-end product",
+        slug: "elan-coaching",
+        title: "Élan Coaching",
+        category: "Projet conceptuel / coach sportif",
+        year: "2026",
+        role: "Direction web / design / développement",
         summary:
-          "Un produit dense rendu plus calme, plus lisible et plus décisionnel.",
+          "Une maquette de site pour un coach sportif local et en ligne, avec une image dynamique mais claire.",
         statement:
-          "Data dense, lecture immédiate.",
+          "Montrer l'énergie du coaching sans perdre en lisibilité ni en crédibilité.",
         challenge:
-          "L'enjeu principal était de hiérarchiser une grande quantité d'informations et de construire une interface suffisamment robuste pour évoluer vite. Le système devait rester lisible malgré une densité élevée et plusieurs niveaux d'état.",
+          "Le site devait parler à la fois à des clients locaux et à des personnes prêtes à se faire accompagner à distance. Il fallait créer une présence plus professionnelle, mettre en avant l'offre et garder un parcours simple vers la prise de rendez-vous.",
         solution:
-          "J'ai structuré l'interface autour de blocs clairs, de patterns réutilisables et d'une densité maîtrisée. Le design system réduit le bruit, améliore la comparaison des données et garde une cohérence visuelle sur toutes les vues.",
+          "J'ai imaginé une structure qui met d'abord en avant la promesse, puis les formules de coaching, les bénéfices, quelques témoignages types et un appel à l'action très visible. Le design reste rythmé, mais maîtrisé pour ne pas noyer le message.",
         outcome:
-          "L'expérience devient plus fiable pour les équipes produit et business : moins de friction, plus de repères, et une base front-end capable d'absorber de nouveaux cas d'usage.",
-        stack: [
-          "Next.js",
-          "React",
-          "TypeScript",
-          "Supabase",
-          "PostgreSQL",
-          "Tailwind CSS",
-        ],
+          "La maquette donne au coach une présence plus solide, plus actuelle et mieux adaptée à une activité qui mélange rendez-vous locaux et accompagnement en ligne.",
+        stack: ["Next.js", "TypeScript", "Tailwind CSS", "Motion légère"],
         deliverables: [
-          "Dashboard principal",
-          "Système de filtres",
-          "Composants data",
-          "États vides et chargement",
+          "Page d'accueil",
+          "Présentation des offres",
+          "Section coaching local et en ligne",
+          "Prise de contact",
         ],
         links: [
           {
-            label: "Étude de cas",
-            href: "/projets/orbit-finance",
+            label: "Voir le projet",
+            href: "/projets/elan-coaching",
           },
           {
-            label: "GitHub",
-            href: "https://github.com/maelpasq",
+            label: "Parler de mon projet",
+            href: "/#contact",
           },
         ],
         metrics: [
-          { label: "Cap", value: "Data dense" },
-          { label: "Focus", value: "Lecture immédiate" },
-          { label: "Livrable", value: "Interface extensible" },
+          { label: "Type", value: "Site vitrine" },
+          { label: "Secteur", value: "Coaching sportif" },
+          { label: "Mode", value: "Local + en ligne" },
         ],
         coverVariant: "signal",
       },
       {
-        slug: "monograph-commerce",
-        title: "Monograph Commerce",
-        category: "Expérience e-commerce",
+        slug: "fournil-charentais",
+        title: "Le Fournil Charentais",
+        category: "Projet conceptuel / boulangerie",
         year: "2026",
-        role: "Full-stack / UX engineering",
+        role: "Direction web / design / développement",
         summary:
-          "Un concept store premium où storytelling, conversion et performance avancent ensemble.",
+          "Une maquette pour une boulangerie locale traditionnelle, pensée pour transmettre une image artisanale et chaleureuse.",
         statement:
-          "Commerce premium, sans bruit.",
+          "Créer une présence locale rassurante et donner envie de pousser la porte.",
         challenge:
-          "Le projet devait concilier désir visuel, rapidité de consultation et fluidité du parcours d'achat, avec une identité plus forte que les templates e-commerce habituels.",
+          "Pour une boulangerie de quartier, le site doit rester simple tout en donnant une vraie personnalité à l'enseigne. L'objectif était de valoriser le côté artisanal, les produits phares et les informations pratiques sans complexifier l'expérience.",
         solution:
-          "J'ai combiné une structure de contenu éditoriale, des composants commerce sobres et des micro-interactions très contrôlées pour faire exister la marque sans ralentir le parcours.",
+          "J'ai travaillé une ambiance plus chaleureuse, structurée autour des produits, des horaires, de l'histoire de la maison et des informations utiles. Le design reste lisible, avec une mise en page pensée pour le mobile et les recherches locales rapides.",
         outcome:
-          "Le site gagne en présence, en cohérence et en crédibilité produit, tout en gardant un tunnel clair et une base technique facile à enrichir.",
-        stack: [
-          "Next.js",
-          "TypeScript",
-          "Node.js",
-          "Prisma",
-          "PostgreSQL",
-          "Vercel",
-        ],
+          "La maquette donne à la boulangerie une image plus soignée et plus crédible en ligne, tout en gardant la proximité et la simplicité attendues pour une activité locale.",
+        stack: ["Next.js", "TypeScript", "Tailwind CSS", "SEO local"],
         deliverables: [
-          "Landing éditoriale",
-          "Fiches produit",
-          "Tunnel simplifié",
-          "Optimisation perçue",
+          "Page d'accueil",
+          "Mise en avant des produits",
+          "Informations pratiques",
+          "Contact et localisation",
         ],
         links: [
           {
-            label: "Étude de cas",
-            href: "/projets/monograph-commerce",
+            label: "Voir le projet",
+            href: "/projets/fournil-charentais",
           },
           {
-            label: "Demander la démo",
-            href: "mailto:hello@maelpasqueraud.fr?subject=Monograph%20Commerce",
+            label: "Demander une maquette",
+            href: "/#contact",
           },
         ],
         metrics: [
-          { label: "Cap", value: "Commerce premium" },
-          { label: "Focus", value: "Conversion sans bruit" },
-          { label: "Livrable", value: "Parcours éditorial" },
+          { label: "Type", value: "Site vitrine" },
+          { label: "Secteur", value: "Boulangerie" },
+          { label: "Style", value: "Tradition locale" },
         ],
         coverVariant: "frame",
       },
@@ -357,28 +352,28 @@ export const portfolioContent = {
     index: "06",
     title: "Parcours",
     description:
-      "Interface, produit, finition.",
+      "Du premier site observé par curiosité aux projets web d'aujourd'hui.",
     items: [
       {
+        period: "Depuis mes 11 ans",
+        title: "Découverte du web",
+        subtitle: "Curiosité / premiers tests",
+        body:
+          "Tout est parti d'une question simple : comment sont faits les sites internet que l'on consulte tous les jours ?",
+      },
+      {
+        period: "Premiers projets",
+        title: "Design et développement ensemble",
+        subtitle: "Maquettes / intégration / logique web",
+        body:
+          "Très vite, je n'ai pas voulu seulement coder des pages. J'ai aussi voulu comprendre comment leur donner une vraie cohérence visuelle et une lecture simple.",
+      },
+      {
         period: "Aujourd'hui",
-        title: "Portfolio & missions sélectionnées",
-        subtitle: "Front-end premium / produit",
+        title: "Freelance pour indépendants et petites activités",
+        subtitle: "Sites vitrines / image plus pro / visibilité",
         body:
-          "Focus sur des expériences web où le niveau de détail compte vraiment.",
-      },
-      {
-        period: "2024 - 2025",
-        title: "Interfaces client ambitieuses",
-        subtitle: "Landing, SaaS, e-commerce",
-        body:
-          "Montée en exigence sur les systèmes UI, le responsive et les animations utiles.",
-      },
-      {
-        period: "2023 - 2024",
-        title: "Structuration des bases front-end",
-        subtitle: "Composants, design systems, performance",
-        body:
-          "Architecture de composants, qualité de code et collaboration plus fluide avec le design.",
+          "Je crée des sites pensés pour rassurer, clarifier une activité et donner une présence web plus professionnelle à ceux qui veulent être visibles en ligne.",
       },
     ],
   },
@@ -386,64 +381,64 @@ export const portfolioContent = {
     index: "07",
     title: "Méthode",
     description:
-      "Comprendre, structurer, designer, construire, finir.",
+      "Un cadre simple pour avancer sans jargon et sans perdre de temps.",
     steps: [
       {
         index: "01",
-        title: "Cadrer",
+        title: "Échanger",
         body:
-          "Comprendre l'ambition, le public et le vrai signal.",
+          "Comprendre l'activité, les objectifs et l'image que le site doit transmettre.",
       },
       {
         index: "02",
-        title: "Structurer",
+        title: "Cadrer",
         body:
-          "Définir l'information, la hiérarchie et la grille.",
+          "Définir l'arborescence, les contenus et la direction visuelle du projet.",
       },
       {
         index: "03",
-        title: "Designer",
+        title: "Maquetter",
         body:
-          "Composer une interface nette et réaliste.",
+          "Créer une base claire pour valider le style et la structure avant le développement.",
       },
       {
         index: "04",
-        title: "Construire",
+        title: "Développer",
         body:
-          "Développer une base propre et performante.",
+          "Construire le site proprement avec des retours simples pendant l'avancement.",
       },
       {
         index: "05",
-        title: "Finir",
+        title: "Mettre en ligne",
         body:
-          "Ajuster le rythme, les états et la finition.",
+          "Livrer un site responsive, propre et facile à prendre en main au quotidien.",
       },
     ],
   },
   manifesto: {
     index: "08",
-    title: "Je construis des expériences,",
+    title: "Un bon site doit rassurer,",
     description:
-      "Lisible, tendu, propre.",
-    accent: "pas des pages de plus.",
+      "Clair, pro, utile.",
+    accent: "pas seulement exister.",
     body:
-      "Le design sans structure s'épuise vite. Le code sans regard manque de présence.",
+      "Pour une petite activité, le site doit expliquer clairement ce que vous faites, montrer votre sérieux et donner envie de vous contacter. C'est ce que je cherche à construire à chaque projet.",
     highlights: [
-      "Rigueur visuelle",
-      "Motion utile",
-      "Front-end maintenable",
+      "Image plus pro",
+      "Lecture immédiate",
+      "Contact plus simple",
     ],
   },
   contact: {
     index: "09",
     title: "Contact",
     description:
-      "Direct et simple.",
+      "Simple et direct.",
     body:
-      "Si le projet demande du goût, de la rigueur et une vraie qualité d'exécution, on peut parler.",
+      "Si vous êtes indépendant, auto-entrepreneur ou petite structure et que vous voulez un site plus professionnel, on peut en parler. Je travaille partout en France, avec un ancrage local en Charente.",
     cta: {
-      label: "Écrire",
-      href: "mailto:hello@maelpasqueraud.fr?subject=Projet%20web",
+      label: "M'écrire",
+      href: "mailto:hello@maelpasqueraud.fr?subject=Projet%20de%20site%20web",
     },
     links: [
       {
@@ -452,157 +447,160 @@ export const portfolioContent = {
         note: "hello@maelpasqueraud.fr",
       },
       {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/mael-pasqueraud/",
+        note: "Maël Pasqueraud",
+      },
+      {
         label: "GitHub",
         href: "https://github.com/maelpasq",
         note: "@maelpasq",
       },
-      {
-        label: "LinkedIn",
-        href: "https://www.linkedin.com/in/mael-pasqueraud/",
-        note: "mael-pasqueraud",
-      },
     ],
   },
   blog: {
-    pageTitle: "Blog",
-    eyebrow: "Blog / notes / front-end",
-    title: "Des notes sur l'interface,",
-    accent: "le produit et l'exécution.",
+    pageTitle: "Conseils web",
+    eyebrow: "Blog / notes / site vitrine",
+    title: "Des conseils simples pour un site",
+    accent: "plus clair et plus crédible.",
     description:
-      "Une page séparée pour publier des idées plus calmes sur la clarté, le motion, les systèmes UI et la façon de construire des interfaces qui tiennent.",
-    backHomeLabel: "Retour au portfolio",
-    featuredLabel: "À la une",
-    allPostsLabel: "Toutes les notes",
-    viewPostLabel: "Lire la note",
+      "Quelques articles pour aider les indépendants à mieux préparer leur présence en ligne : structure, contenus, priorités et bonnes décisions pour un premier site vitrine.",
+    backHomeLabel: "Retour à l'accueil",
+    featuredLabel: "Article mis en avant",
+    allPostsLabel: "Autres articles",
+    viewPostLabel: "Lire l'article",
     backToBlogLabel: "Retour au blog",
     postFallbackTitle: "Article introuvable",
-    takeawaysLabel: "Points clés",
-    otherPostsLabel: "Autres notes",
-    contactCtaLabel: "Parlons-en",
+    takeawaysLabel: "À retenir",
+    otherPostsLabel: "Autres sujets",
+    contactCtaLabel: "Parler de mon site",
     posts: [
       {
-        slug: "eviter-les-interfaces-qui-crient",
-        title: "Éviter les interfaces qui crient",
-        category: "Interface",
+        slug: "ce-quun-site-vitrine-doit-vraiment-contenir",
+        title: "Ce qu'un site vitrine doit vraiment contenir",
+        category: "Site vitrine",
         date: "Mars 2026",
         readingTime: "4 min",
         summary:
-          "Pourquoi une interface gagne souvent en impact quand elle retire du bruit au lieu d'ajouter des effets.",
+          "Les éléments essentiels pour qu'un site vitrine paraisse professionnel et donne envie de contacter.",
         intro:
-          "Une interface peut être marquante sans hausser la voix. Le vrai travail consiste souvent à retirer ce qui brouille la lecture, pour laisser apparaître une structure plus nette et une présence plus forte.",
+          "Un site vitrine efficace n'a pas besoin d'en faire trop. Il doit surtout aider un visiteur à comprendre rapidement ce que vous faites, pourquoi il peut vous faire confiance et comment vous contacter.",
         sections: [
           {
-            title: "Réduire le bruit avant de chercher l'effet",
+            title: "Dire clairement ce que vous faites",
             paragraphs: [
-              "Beaucoup d'interfaces deviennent fragiles parce qu'elles empilent des signes de présence : trop de blocs, trop d'accents, trop de variations. L'ensemble semble vivant pendant quelques secondes, puis perd sa hiérarchie.",
-              "Le bon réflexe consiste à réduire les couches concurrentes. Quand une seule information dominante émerge clairement, le reste du système peut enfin respirer.",
+              "La première zone visible doit permettre de comprendre l'activité en quelques secondes. Si le visiteur doit chercher, le message est déjà trop flou.",
+              "Un bon titre, une phrase d'explication simple et un appel à l'action clair suffisent souvent à poser une base beaucoup plus solide qu'un long texte générique.",
             ],
           },
           {
-            title: "Faire exister la hiérarchie",
+            title: "Rassurer avec des preuves simples",
             paragraphs: [
-              "La hiérarchie ne vient pas seulement de la taille des titres. Elle vient aussi de l'espace, du contraste, de la répétition et du rythme entre les éléments.",
-              "Une interface calme paraît souvent plus premium parce qu'elle montre qu'une décision a déjà été prise pour l'utilisateur : où regarder, quoi lire, et dans quel ordre avancer.",
+              "Même sans grands chiffres ni gros clients, on peut rassurer avec une présentation claire des services, une zone géographique précise, des réalisations ou une méthode de travail bien expliquée.",
+              "Le but n'est pas d'impressionner artificiellement, mais de montrer que l'activité est sérieuse et structurée.",
             ],
           },
           {
-            title: "Soigner les états",
+            title: "Rendre le contact évident",
             paragraphs: [
-              "Même les interfaces minimales perdent en tenue si les hover, focus et transitions semblent accessoires. Ces détails doivent prolonger le langage visuel au lieu de le contredire.",
+              "Un site vitrine doit faciliter le passage à l'action. Un bouton bien visible, un formulaire simple et des informations de contact accessibles changent souvent plus de choses qu'un design trop sophistiqué.",
             ],
           },
         ],
         takeaways: [
-          "L'impact vient souvent de la suppression, pas de l'ajout.",
-          "Une hiérarchie claire rend l'interface plus statutaire.",
-          "Les micro-états doivent suivre la même discipline visuelle.",
+          "Le visiteur doit comprendre l'activité immédiatement.",
+          "La crédibilité vient d'une structure claire avant de venir d'un grand discours.",
+          "Le contact doit être visible et simple à utiliser.",
         ],
       },
       {
-        slug: "le-motion-qui-aide-vraiment",
-        title: "Le motion qui aide vraiment",
-        category: "Motion",
+        slug: "pourquoi-etre-visible-en-ligne-meme-en-local",
+        title: "Pourquoi être visible en ligne même en local",
+        category: "Visibilité",
         date: "Février 2026",
+        readingTime: "4 min",
+        summary:
+          "Même pour une activité locale, un site reste un outil important pour paraître plus crédible et être trouvé plus facilement.",
+        intro:
+          "Beaucoup d'indépendants travaillent surtout grâce au bouche-à-oreille. Pourtant, au moment de vérifier un nom, un service ou un numéro, la plupart des prospects passent quand même par internet.",
+        sections: [
+          {
+            title: "Le site confirme que l'activité est sérieuse",
+            paragraphs: [
+              "Quand un prospect entend parler de vous, il va souvent chercher votre nom avant d'appeler. Un site propre et clair peut immédiatement renforcer la confiance.",
+              "À l'inverse, l'absence totale de présence web peut donner une impression d'activité floue ou peu installée.",
+            ],
+          },
+          {
+            title: "Être local n'empêche pas d'être bien présenté",
+            paragraphs: [
+              "Un artisan, un coach ou un commerce de proximité n'a pas besoin d'un site complexe. Il a besoin d'une présence simple qui explique l'offre, la zone d'intervention et la façon de prendre contact.",
+              "C'est souvent ce niveau de clarté qui fait la différence entre une visite oubliée et une demande réelle.",
+            ],
+          },
+          {
+            title: "Le site complète les réseaux et Google",
+            paragraphs: [
+              "Les réseaux sociaux et la fiche Google sont utiles, mais ils ne remplacent pas un espace maîtrisé où vous présentez votre activité comme vous le souhaitez. Le site devient votre base claire, stable et durable.",
+            ],
+          },
+        ],
+        takeaways: [
+          "Un site rassure un prospect avant le premier échange.",
+          "Une présence locale peut rester simple tout en étant très professionnelle.",
+          "Le site complète les autres canaux au lieu de les remplacer.",
+        ],
+      },
+      {
+        slug: "comment-preparer-les-contenus-de-son-site",
+        title: "Comment préparer les contenus de son site",
+        category: "Contenu",
+        date: "Janvier 2026",
         readingTime: "5 min",
         summary:
-          "Quand l'animation améliore la perception du produit, la lecture et le confort, au lieu de devenir un simple effet.",
+          "Les bons contenus ne sont pas forcément longs. Ils doivent surtout être clairs, utiles et réalistes pour le visiteur.",
         intro:
-          "Le motion utile n'est pas là pour impressionner seul. Il sert surtout à relier des états, clarifier une transition et donner une sensation de continuité sans ralentir l'interface.",
+          "Beaucoup de projets web prennent du retard parce que les contenus semblent compliqués à préparer. En pratique, quelques blocs bien pensés suffisent souvent à construire un site vitrine efficace.",
         sections: [
           {
-            title: "Montrer une relation, pas juste un mouvement",
+            title: "Commencer par l'essentiel",
             paragraphs: [
-              "Une bonne animation répond à une question implicite : d'où vient cet élément, où va-t-il, et qu'est-ce qui change pour l'utilisateur ?",
-              "Quand cette relation n'est pas claire, le mouvement devient décoratif. Il attire l'attention sans ajouter de compréhension.",
+              "Avant d'écrire beaucoup, il faut clarifier les bases : que faites-vous, pour qui, dans quelle zone et comment vous contacter. Ces informations structurent déjà la majorité de la page d'accueil.",
+              "Quand ces réponses sont simples, le reste du contenu devient beaucoup plus facile à rédiger.",
             ],
           },
           {
-            title: "Travailler la perception avant la complexité",
+            title: "Parler comme on parle à un client",
             paragraphs: [
-              "Un reveal simple, bien cadencé, peut faire plus pour la qualité perçue qu'une animation sophistiquée. Le rythme, le délai et la retenue comptent davantage que la quantité de propriétés animées.",
+              "Les textes les plus crédibles sont souvent les plus directs. Il vaut mieux expliquer un service avec des mots simples que chercher un ton trop marketing.",
+              "Un visiteur doit comprendre votre activité rapidement, sans jargon ni promesses trop vagues.",
             ],
           },
           {
-            title: "Respecter le contexte d'usage",
+            title: "Prévoir quelques visuels utiles",
             paragraphs: [
-              "Sur desktop, on peut se permettre un peu plus de respiration. Sur mobile, chaque mouvement doit rester court, lisible et non bloquant. La meilleure animation est souvent celle qu'on ressent sans la remarquer.",
+              "Des photos de qualité, même simples, peuvent suffire si elles montrent bien l'activité, l'ambiance ou le résultat. L'important est qu'elles soient cohérentes avec l'image que vous voulez donner.",
             ],
           },
         ],
         takeaways: [
-          "Le motion doit clarifier une relation entre deux états.",
-          "Le rythme compte plus que la complexité.",
-          "Le contexte mobile impose plus de retenue.",
-        ],
-      },
-      {
-        slug: "penser-un-design-system-sans-perdre-le-style",
-        title: "Penser un design system sans perdre le style",
-        category: "Systèmes",
-        date: "Janvier 2026",
-        readingTime: "6 min",
-        summary:
-          "Construire une base réutilisable sans lisser l'identité visuelle ni tomber dans l'interface générique.",
-        intro:
-          "Un design system n'a pas pour but de normaliser une interface jusqu'à la rendre anonyme. Son rôle est de stabiliser les fondations pour que le style puisse exister de manière cohérente et durable.",
-        sections: [
-          {
-            title: "Séparer structure et expression",
-            paragraphs: [
-              "Les composants doivent d'abord porter une logique de structure : alignement, spacing, responsive, états, accessibilité. L'expression visuelle vient ensuite, sans casser cette base.",
-              "C'est cette séparation qui permet de garder une identité forte tout en évitant les régressions à chaque nouveau besoin produit.",
-            ],
-          },
-          {
-            title: "Limiter le nombre de décisions locales",
-            paragraphs: [
-              "Plus une équipe doit réinventer ses choix à l'échelle d'un composant, plus la cohérence s'effrite. Un bon système réduit le nombre de décisions répétées sans figer tout le reste.",
-            ],
-          },
-          {
-            title: "Laisser une place à la tension visuelle",
-            paragraphs: [
-              "Le style vient souvent de variations très contrôlées : une typo plus franche, un contraste plus tendu, un usage précis de l'accent. Un système mature protège ces décisions au lieu de les effacer.",
-            ],
-          },
-        ],
-        takeaways: [
-          "Un système solide protège le style au lieu de l'éteindre.",
-          "La structure doit être stable avant l'expression visuelle.",
-          "Moins de décisions locales, plus de cohérence.",
+          "Les bons contenus commencent par quatre informations très concrètes.",
+          "Un ton simple et direct inspire souvent plus confiance qu'un jargon marketing.",
+          "Quelques bons visuels valent mieux qu'une grande quantité d'images mal choisies.",
         ],
       },
     ],
   },
   footer: {
-    eyebrow: "Footer / closing frame",
+    eyebrow: "Footer / contact",
     imprint: "PASQUERAUD",
     signature: "Maël",
-    caption: "Next.js / TypeScript / Tailwind / Framer Motion",
+    caption:
+      "Développeur web full stack & designer web pour indépendants et petites activités.",
     backToTopLabel: "Retour en haut",
     blogLink: {
-      label: "Voir le blog",
-      href: "/blog",
+      label: "Voir les projets",
+      href: "/#projets",
     },
     navigationTitle: "Navigation",
     contactTitle: "Contact",
